@@ -1,7 +1,7 @@
 import icon from "../assets/quotes.svg"
 // import pepoleOne from "../assets/People01.png"
-import PeopleTwo from "../assets/People02.png"
-import PeopleThree from "../assets/People03.png"
+// import PeopleTwo from "../assets/People02.png"
+// import PeopleThree from "../assets/People03.png"
 
 export default function Cards() {
     return (
@@ -20,7 +20,7 @@ export default function Cards() {
                             Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
                         </p>
                         <div className="person flex justify-start gap-4 items-center">
-                            <img src={PeopleTwo} alt="" className="w-12"/>
+                            {/* <img src={PeopleTwo} alt="" className="w-12"/> */}
                             <div className="info">
                                 <h3 className="text-xl font-normal leading-8">Herman Jensen</h3>
                                 <span className="text-base leading-normal">Founder & Leader</span>
@@ -35,7 +35,7 @@ export default function Cards() {
                             Money makes your life easier. If you`re lucky to have it, you`re lucky.
                         </p>
                         <div className="person flex justify-start gap-4 items-center">
-                            <img src={PeopleTwo} alt="" className="w-12"/>
+                            {/* <img src={PeopleTwo} alt="" className="w-12"/> */}
                             <div className="info">
                                 <h3 className="text-xl font-normal leading-8">Steve Mark</h3>
                                 <span className="text-base leading-normal">Founder & Leader</span>
@@ -50,7 +50,7 @@ export default function Cards() {
                             It is usually people in the money business, finance, and international trade that are really rich.
                         </p>
                         <div className="person flex justify-start gap-4 items-center">
-                            <img src={PeopleThree} alt="" className="w-12"/>
+                            {/* <img src={PeopleThree} alt="" className="w-12"/> */}
                             <div className="info">
                                 <h3 className="text-xl font-normal leading-8">Kenn Gallagher</h3>
                                 <span className="text-base leading-normal">Founder & Leader</span>
