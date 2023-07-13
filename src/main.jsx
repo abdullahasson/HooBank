@@ -8,8 +8,8 @@ import Easily from './components/Easily'
 import Find from './components/Find'
 // import Cards from '../../now/components/Cards'
 import Markets from './components/Markets'
-// import Try from './components/Try'
-// import Footer from './components/Footer'
+import Try from './components/Try'
+import Footer from './components/Footer'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Easily />
     <Find />
     <Markets />
-    {/*<Try />
-    <Footer /> */}
+    <Try />
+    <Footer /> 
   </React.StrictMode>,
 )
