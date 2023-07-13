@@ -6,7 +6,7 @@ import Num from './components/Num'
 import Business from './components/Business'
 import Easily from './components/Easily'
 import Find from './components/Find'
-// import Cards from '../../now/components/Cards'
+import Cards from '../../now/components/Cards'
 import Markets from './components/Markets'
 import Try from './components/Try'
 import Footer from './components/Footer'
@@ -20,6 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Business />
     <Easily />
     <Find />
+    <Cards />
     <Markets />
     <Try />
     <Footer /> 
