@@ -1,5 +1,5 @@
 import icon from "../assets/quotes.svg"
-// import pepoleOne from "../assets/People01.png"
+import pepoleOne from "../assets/People01.png"
 import PeopleTwo from "../assets/People02.png"
 import PeopleThree from "../assets/People03.png"
 
@@ -12,7 +12,7 @@ export default function Cards() {
                     <p className="txt w-407px max-[767px]:w-auto">Everything you need to accept card payments and grow your business anywhere on the planet.</p>
                 </div>
                 <div className="content pt-14 grid grid-cols-3 gap-7 max-[992px]:grid-cols-2 max-[767px]:grid-cols-1">
-                    {/* <div className="box rounded-2xl asd px-4 py-12 text-white flex flex-col justify-between">
+                    <div className="box rounded-2xl asd px-4 py-12 text-white flex flex-col justify-between">
                         <div className="icon">
                             <img src={icon} alt="" />
                         </div>
@@ -26,7 +26,7 @@ export default function Cards() {
                                 <span className="text-base leading-normal">Founder & Leader</span>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="box rounded-2xl asd px-4 py-12 text-white flex flex-col justify-between">
                         <div className="icon">
                             <img src={icon} alt=""/>
