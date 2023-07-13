@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import Navbar from './components/Navbar'
+import Navbar from './components/Navbar'
 // import Home from './components/Home'
 // import Num from './components/Num'
 // import Business from './components/Business'
@@ -14,8 +14,8 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <Navbar />
-    <Home />
+    <Navbar />
+    {/* <Home />
     <Num />
     <Business />
     <Easily />
