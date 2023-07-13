@@ -1,7 +1,7 @@
 import icon from "../assets/quotes.svg"
-import pepO from "../assets/People01.png"
-import pepT from "../assets/People02.png"
-import pepTh from "../assets/People03.png"
+import pepO from "../assets/people01.png"
+import pepT from "../assets/people02.png"
+import pepTh from "../assets/people03.png"
 
 
 export default function Cards() {
