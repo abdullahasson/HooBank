@@ -403,3 +403,19 @@ body {
         bottom: 100px;
     }
 }
+
+
+@media (max-width: 767px) {
+    .nav {
+        display: none;
+    }
+
+    .nav.show {
+        display: block;
+        background-color: #2d2c35;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        padding: 12px;
+    }
+}

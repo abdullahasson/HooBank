@@ -1,4 +1,13 @@
 export default function Navbar() {
+
+    function iconClick() {
+        document.querySelector(".nav").classList.toggle("show")
+    }
+
+    function removeIconClick() {
+        document.querySelector(".nav").classList.remove("show")
+    }
+
     return (
         <div className="navbar fixed top-0 left-0 min-w-full z-50">
             <div className="container flex justify-between items-center p-5">
@@ -11,13 +20,15 @@ export default function Navbar() {
                     </svg>
                     <h1 className="text-white font-bold leading-3">Hoo<span className="text-sky-500">Bank</span></h1>
                 </div>
-                <i className="fa-solid fa-bars fa-bounce text-white hidden max-[767px]:block cursor-pointer"></i>
-                <div className="nav max-[767px]:hidden max-[767px]:top-0 max-[767px]:absolute max-[767px]:transition-all">
-                    <ul className="flex gap-5 text-zinc-50">
-                        <li><a href="#zero" className=" hover:text-cyan-500">Home</a></li>
-                        <li><a href="#one" className=" hover:text-cyan-500">About Us</a></li>
-                        <li><a href="#two" className=" hover:text-cyan-500">Features</a></li>
-                        <li><a href="#three" className=" hover:text-cyan-500">Solution</a></li>
+
+                <i className="fa-solid fa-bars fa-bounce text-white hidden max-[767px]:block cursor-pointer" onClick={iconClick}></i>
+
+                <div className="nav max-[767px]:top-0 max-[767px]:absolute max-[767px]:transition-all">
+                    <ul className="flex max-[767px]:flex-col gap-5 text-zinc-50">
+                        <li><a href="#zero" className=" hover:text-cyan-500" onClick={removeIconClick}>Home</a></li>
+                        <li><a href="#one" className=" hover:text-cyan-500" onClick={removeIconClick}>About Us</a></li>
+                        <li><a href="#two" className=" hover:text-cyan-500" onClick={removeIconClick}>Features</a></li>
+                        <li><a href="#three" className=" hover:text-cyan-500" onClick={removeIconClick}>Solution</a></li>
                     </ul>
                 </div>
             </div>
