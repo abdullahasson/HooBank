@@ -1,3 +1,5 @@
+import hand from "../assets/hand.png"
+
 export default function Home() {
     return (
         <div className="home h-screen relative" id='zero'>
@@ -20,7 +22,7 @@ export default function Home() {
                 <div className="right">
                 </div>
             </div>
-            <img src="/HooBank/src/assets/hand.png" className='rob absolute right-0' alt="" />
+            <img src={hand} className='rob absolute right-0' alt="" />
         </div>
     )
 }
