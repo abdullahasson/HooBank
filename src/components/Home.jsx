@@ -1,4 +1,5 @@
 import hand from "../assets/hand.png"
+import Discount from "../assets/Discount.svg"
 
 export default function Home() {
     return (
@@ -6,7 +7,7 @@ export default function Home() {
             <div className="container flex justify-between flex-wrap items-center h-screen">
                 <div className="left flex flex-col justify-between w-3/6">
                     <div className="motion flex items-center gap-2 rounded bg-slate-500 px-4 p-1 w-fit">
-                        <img src="/HooBank/src/assets/Discount.svg" alt="" />
+                        <img src={Discount} alt="" />
                         <h3><span>20%</span> DISCOUNT FOR <span>1 MONTH</span> ACCOUNT</h3>
                     </div>
 

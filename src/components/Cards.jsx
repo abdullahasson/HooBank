@@ -1,3 +1,8 @@
+import quotes from "../assets/quotes.svg"
+import people01 from "../assets/people01.png"
+import people02 from "../assets/people02.png"
+import people03 from "../assets/people03.png"
+
 export default function Cards() {
     return (
         <div className="cards space" id="two">
@@ -10,13 +15,13 @@ export default function Cards() {
                 <div className="content pt-14 grid grid-cols-3 gap-7 max-[992px]:grid-cols-2 max-[767px]:grid-cols-1">
                     <div className="box rounded-2xl asd px-4 py-12 text-white flex flex-col justify-between">
                         <div className="icon">
-                            <img src="/HooBank/src/assets/quotes.svg" alt="" />
+                            <img src={quotes} alt="" />
                         </div>
                         <p className="my-8 text-lg font-normal">
                             Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
                         </p>
                         <div className="person flex justify-start gap-4 items-center">
-                            <img src="/HooBank/src/assets/people01.png" alt="" className="w-12"/>
+                            <img src={people01} alt="" className="w-12"/>
                             <div className="info">
                                 <h3 className="text-xl font-normal leading-8">Herman Jensen</h3>
                                 <span className="text-base leading-normal">Founder & Leader</span>
@@ -25,13 +30,13 @@ export default function Cards() {
                     </div>
                     <div className="box rounded-2xl asd px-4 py-12 text-white flex flex-col justify-between">
                         <div className="icon">
-                            <img src="/HooBank/src/assets/quotes.svg" alt="" />
+                            <img src={quotes} alt="" />
                         </div>
                         <p className="my-8 text-lg font-normal">
                             Money makes your life easier. If you`re lucky to have it, you`re lucky.
                         </p>
                         <div className="person flex justify-start gap-4 items-center">
-                            <img src="/HooBank/src/assets/people02.png" alt="" className="w-12"/>
+                            <img src={people02} alt="" className="w-12"/>
                             <div className="info">
                                 <h3 className="text-xl font-normal leading-8">Steve Mark</h3>
                                 <span className="text-base leading-normal">Founder & Leader</span>
@@ -40,13 +45,13 @@ export default function Cards() {
                     </div>
                     <div className="box rounded-2xl asd px-4 py-12 text-white flex flex-col justify-between">
                         <div className="icon">
-                            <img src="/HooBank/src/assets/quotes.svg" alt="" />
+                            <img src={quotes} alt="" />
                         </div>
                         <p className="my-8 text-lg font-normal">
                             It is usually people in the money business, finance, and international trade that are really rich.
                         </p>
                         <div className="person flex justify-start gap-4 items-center">
-                            <img src="/HooBank/src/assets/people03.png" alt="" className="w-12"/>
+                            <img src={people03} alt="" className="w-12"/>
                             <div className="info">
                                 <h3 className="text-xl font-normal leading-8">Kenn Gallagher</h3>
                                 <span className="text-base leading-normal">Founder & Leader</span>
