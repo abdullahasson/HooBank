@@ -1,16 +1,10 @@
-import logo from "../assets/logo.svg"
-import instgram from "../assets/instagram.svg"
-import facebook from "../assets/facebook.svg"
-import twitter from "../assets/twitter.svg"
-import linkedin from "../assets/linkedin.svg"
-
 export default function Footer() {
     return (
         <div className="footer addd">
             <div className="container flex justify-between items-center max-[767px]:flex-col">
                 <div className="left py-20 max-[767px]:text-center max-[767px]:w-full">
                     <div className="logo flex flex-col max-[767px]:items-center">
-                        <img src={logo} alt="" className="w-1/2 mb-6"/>
+                        <img src="/HooBank/src/assets/logo.svg" alt="" className="w-1/2 mb-6"/>
                         <p className="txt w-3/5">
                             A new way to make the payments easy, reliable and secure.
                         </p>
@@ -47,10 +41,10 @@ export default function Footer() {
                         <p className="txt">Copyright 2021 HooBank. All Rights Reserved.</p>
                     </div>
                     <ul className="flex items-center gap-5">
-                        <li><img src={instgram} alt=""/></li>
-                        <li><img src={facebook} alt=""/></li>
-                        <li><img src={twitter} alt=""/></li>
-                        <li><img src={linkedin} alt=""/></li>
+                        <li><img src="/HooBank/src/assets/instagram.svg"  alt=""/></li>
+                        <li><img src="/HooBank/src/assets/facebook.svg"  alt=""/></li>
+                        <li><img src="/HooBank/src/assets/twitter.svg" alt=""/></li>
+                        <li><img src="/HooBank/src/assets/linkedin.svg"  alt=""/></li>
                     </ul>
                 </div>
             </div>

@@ -1,5 +1,3 @@
-import card from "../assets/card.png"
-
 export default function Find() {
     return (
         <div className="find space">
@@ -10,7 +8,7 @@ export default function Find() {
                     <button className="btn">Get Started</button>
                 </div>
                 <div className="right w-1/2  max-[799px]:w-full">
-                    <img src={card} alt="" className=" w-5/6 max-[799px]:w-full ml-auto"/>
+                    <img src="/HooBank/src/assets/card.png" alt="" className=" w-5/6 max-[799px]:w-full ml-auto"/>
                 </div>
             </div>
         </div>

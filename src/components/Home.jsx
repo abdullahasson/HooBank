@@ -1,13 +1,10 @@
-import Dis from '../assets/Discount.svg'
-import hand from '../assets/لقطة الشاشة 2023-06-27 211236.png'
-
 export default function Home() {
     return (
         <div className="home h-screen relative" id='zero'>
             <div className="container flex justify-between flex-wrap items-center h-screen">
                 <div className="left flex flex-col justify-between w-3/6">
                     <div className="motion flex items-center gap-2 rounded bg-slate-500 px-4 p-1 w-fit">
-                        <img src={Dis} alt="" />
+                        <img src="/HooBank/src/assets/Discount.svg" alt="" />
                         <h3><span>20%</span> DISCOUNT FOR <span>1 MONTH</span> ACCOUNT</h3>
                     </div>
 
@@ -23,7 +20,7 @@ export default function Home() {
                 <div className="right">
                 </div>
             </div>
-            <img src={hand} className='rob absolute right-0' alt="" />
+            <img src="/HooBank/src/assets/hand.png" className='rob absolute right-0' alt="" />
         </div>
     )
 }
