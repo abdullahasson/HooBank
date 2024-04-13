@@ -8,9 +8,13 @@ import Cards from './components/Cards'
 import Markets from './components/Markets'
 import Try from './components/Try'
 import Footer from './components/Footer'
+import { useScrollReveal } from './Scroll animation/useScrollReveal'
 
 
 function App() {
+
+    useScrollReveal()
+
     return (
         <>
             <Navbar />

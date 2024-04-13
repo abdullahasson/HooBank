@@ -10,10 +10,11 @@ export default defineConfig({
     port: 8080,
     strictPort: true,
    },
+  //  if you make this code work the image will appear in githubpages not on localservar
    server: {
     port: 8080,
     strictPort: true,
     host: true,
-    origin: "http://0.0.0.0:8080",
+    // origin: "http://0.0.0.0:8080",
    },
 })

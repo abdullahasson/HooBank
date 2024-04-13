@@ -11,7 +11,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className="navbar fixed top-0 left-0 min-w-full z-50">
+        <div className="navbar fixed top-0 left-0 min-w-full z-50 backdrop-blur-lg">
             <div className="container flex justify-between items-center p-5">
                 <div className="logo flex justify-between items-center gap-1">
                     <img src={logo} alt="" />
