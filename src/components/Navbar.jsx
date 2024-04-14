@@ -1,4 +1,3 @@
-import { LazyLoadImage } from "react-lazy-load-image-component"
 import logo from "../assets/logo.svg"
 
 export default function Navbar() {
@@ -15,7 +14,7 @@ export default function Navbar() {
         <div className="navbar fixed top-0 left-0 min-w-full z-50 backdrop-blur-lg">
             <div className="container flex justify-between items-center p-5">
                 <div className="logo flex justify-between items-center gap-1">
-                    <LazyLoadImage src={logo} alt="" />
+                    <img src={logo} alt="" />
                 </div>
 
                 <i className="fa-solid fa-bars fa-bounce text-white hidden max-[767px]:block cursor-pointer" onClick={iconClick}></i>

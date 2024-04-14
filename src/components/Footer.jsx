@@ -1,4 +1,3 @@
-import { LazyLoadImage } from "react-lazy-load-image-component"
 import logo from "../assets/logo.svg"
 
 export default function Footer() {
@@ -7,7 +6,7 @@ export default function Footer() {
             <div className="container flex justify-between items-center max-[767px]:flex-col">
                 <div className="left py-20 max-[767px]:text-center max-[767px]:w-full">
                     <div className="logo flex flex-col max-[767px]:items-center left-animation-scroll">
-                        <LazyLoadImage src={logo} alt="" className="w-1/2 mb-6" />
+                        <img src={logo} alt="" className="w-1/2 mb-6" />
                         <p className="txt w-3/5">
                             A new way to make the payments easy, reliable and secure.
                         </p>
