@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+    --time: 20s
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 72px;
@@ -323,6 +328,8 @@ body {
     -o-transform: scale(1.02);
     box-sizing: border-box;
 }
+
+
 
 /* Responsive */
 @media (max-width : 1274px) {
