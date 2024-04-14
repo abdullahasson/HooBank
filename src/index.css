@@ -301,11 +301,7 @@ body {
 }
 
 .footer ul li:hover {
-    transform: translateX(5px);
-    -webkit-transform: translateX(5px);
-    -moz-transform: translateX(5px);
-    -ms-transform: translateX(5px);
-    -o-transform: translateX(5px);
+    color: #3cc4d4
 }
 
 .cards .content .box {

@@ -74,6 +74,5 @@ export const useScrollReveal = () => {
             easing: "ease"
         });
 
-
     }, []);
 };
