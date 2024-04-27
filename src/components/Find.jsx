@@ -1,5 +1,5 @@
 import { LazyLoadImage } from "react-lazy-load-image-component"
-import card from "../assets/card.png"
+import { FindImages } from "../assets"
 import Button from "./Button"
 
 export default function Find() {
@@ -12,7 +12,7 @@ export default function Find() {
                     <Button>Get Started</Button>
                 </div>
                 <div className="right w-1/2  max-[799px]:w-full">
-                    <LazyLoadImage src={card} alt="" className=" w-5/6 max-[799px]:w-full ml-auto" />
+                    <LazyLoadImage src={FindImages.card} alt="" className=" w-5/6 max-[799px]:w-full ml-auto" />
                 </div>
             </div>
         </div>

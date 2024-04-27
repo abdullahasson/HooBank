@@ -1,4 +1,4 @@
-import logo from "../assets/logo.svg"
+import { Logo } from "../assets/index"
 
 export default function Footer() {
     return (
@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="container flex justify-between items-center max-[767px]:flex-col">
                 <div className="left py-20 max-[767px]:text-center max-[767px]:w-full">
                     <div className="logo flex flex-col max-[767px]:items-center left-animation-scroll">
-                        <img src={logo} alt="" className="w-1/2 mb-6" />
+                        <img src={Logo.logo} alt="" className="w-1/2 mb-6" />
                         <p className="txt w-3/5">
                             A new way to make the payments easy, reliable and secure.
                         </p>

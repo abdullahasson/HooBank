@@ -1,6 +1,5 @@
 import { LazyLoadImage } from "react-lazy-load-image-component"
-import hand from "../assets/hand.png"
-import Discount from "../assets/Discount.svg"
+import { HomeImages } from "../assets/index";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
@@ -11,7 +10,7 @@ export default function Home() {
             <div className="container flex justify-between flex-wrap items-center h-screen left-animation-scroll">
                 <div className="left flex flex-col justify-between w-3/6">
                     <div className="motion flex items-center gap-2 rounded bg-slate-500 px-4 p-1 w-fit">
-                        <LazyLoadImage src={Discount} alt="" />
+                        <LazyLoadImage src={HomeImages.discount} alt="" />
                         <h3><span>20%</span> DISCOUNT FOR <span>1 MONTH</span> ACCOUNT</h3>
                     </div>
 
@@ -29,7 +28,7 @@ export default function Home() {
                 </div>
             </div>
             <LazyLoadImage
-                src={hand}
+                src={HomeImages.robotHand}
                 className='rob absolute right-0'
                 effect="opacity"
                 alt=""

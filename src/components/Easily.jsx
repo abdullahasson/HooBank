@@ -1,7 +1,5 @@
 import { LazyLoadImage } from "react-lazy-load-image-component"
-import bill from "../assets/bill.png"
-import apple from "../assets/apple.svg"
-import play from "../assets/play.svg"
+import { EasilyImages } from "../assets"
 
 export default function Easily() {
     return (
@@ -9,7 +7,7 @@ export default function Easily() {
             <div className="container flex justify-between items-center max-[799px]:flex-col max-[799px]:gap-16">
                 <div className="left w-1/2 max-[799px]:w-full">
                     <LazyLoadImage
-                        src={bill} alt="" className=" w-5/6 max-[799px]:w-full"
+                        src={EasilyImages.bill} alt="" className=" w-5/6 max-[799px]:w-full"
                     />
                 </div>
                 <div className="right w-1/2 text-white max-[799px]:w-full max-[799px]:text-center right-animation-scroll-200">
@@ -17,10 +15,10 @@ export default function Easily() {
                     <p className="txt my-5">Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.</p>
                     <div className="buttons flex justify-start gap-4 items-center max-[799px]:justify-center">
                         <button>
-                            <LazyLoadImage src={apple} alt="" />
+                            <LazyLoadImage src={EasilyImages.apple} alt="" />
                         </button>
                         <button>
-                            <LazyLoadImage src={play} alt="" />
+                            <LazyLoadImage src={EasilyImages.play} alt="" />
                         </button>
                     </div>
                 </div>
